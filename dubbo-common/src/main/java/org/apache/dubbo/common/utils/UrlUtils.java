@@ -499,4 +499,11 @@ public class UrlUtils {
             return "*".equals(pattern) || pattern.equals(value);
         }
     }
+
+    public static void main(String[] args) {
+        String[] addresses =  REGISTRY_SPLIT_PATTERN.split("multicast://224.5.6.7:1234;45454545454");
+        for (String s:addresses){
+            System.out.println(s);
+        }
+    }
 }
