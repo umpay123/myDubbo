@@ -1,5 +1,8 @@
 package com.tan.数据结构算法;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created with IntelliJ IDEA.
  *
@@ -36,5 +39,10 @@ public class DubboNode {
     }
 
     public DubboNode() {
+    }
+
+    public static void main(String[] args) {
+        Map map = new HashMap();
+        map.put("","");
     }
 }
