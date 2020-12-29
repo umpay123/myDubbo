@@ -9,6 +9,11 @@ package com.tan.数据结构算法;
  */
 public class 冒泡排序 {
     public static void main(String[] args) {
+        String s= "1234";
+        char[] a = s.toCharArray();
+        for (int i=0;i<a.length;i++){
+            int c = a[0];
+        }
          int[] arr ={5,3,1,4,6,2,8,9};
         冒泡排序.sort(arr);
     }

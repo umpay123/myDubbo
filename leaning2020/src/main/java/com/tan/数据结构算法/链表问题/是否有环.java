@@ -152,6 +152,7 @@ public class 是否有环 {
             while (cur1!=cur2){
                 cur1 = cur1.next;
                 cur2 = cur2.next;
+
             }
             return cur1;
         }else {
